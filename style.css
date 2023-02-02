@@ -1,0 +1,21 @@
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 50ch;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.table-warning {
+  --bs-table-bg: #ffebcd;
+  --bs-table-striped-bg: #f2dfc3;
+}
+
+.overflow-scroll {
+  height: 300px;
+  overflow: scroll;
+}
